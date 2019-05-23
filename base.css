@@ -1,0 +1,190 @@
+@font-face{
+    font-family: Customfont;
+    src:url('fonts/Proxima\ Nova\ Alt\ Light.otf')
+}
+
+body{
+    
+    font-family: 'Customfont';
+}
+
+
+.top{
+    
+    background-color:lightgrey;
+}
+
+.bottom{
+    
+    margin-top:10px;
+    
+}
+
+li.container{
+    
+    display: inline;
+}
+
+.thumbnail{
+   
+    border-radius: 4px;
+    box-shadow: 2px 2px grey;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    width : 270px;
+    height : 140px;
+   
+    
+}
+
+.textonimage1{
+    
+    position:absolute;
+    left:100px;
+    top:90px;
+    color:whitesmoke;
+    font-size: 15px;
+
+}
+
+.textonimage2{
+    
+    position:absolute;
+    left:420px;
+    top:90px;
+    color:whitesmoke;
+    font-size: 15px;
+    
+
+}
+
+.textonimage3{
+    
+    position:absolute;
+    left:740px;
+    top:90px;
+    color:whitesmoke;
+    font-size: 15px;
+
+}
+
+.textonimage4{
+    
+    position:absolute;
+    left:1050px;
+    top:90px;
+    color:whitesmoke;
+    font-size: 15px;
+
+}
+
+.bold-text{
+    font-size:50px;
+}
+
+.heading{
+    text-align: center;
+    
+}
+
+li.imgbox1{
+    
+    margin:20px;
+    display:inline;
+}
+
+
+li.boxrow1{
+    margin-top:40px;
+    margin-top:auto;
+    display: inline;
+    box-align: inline;
+    float:left
+}
+
+li.boxrow2{
+    margin:auto;
+    margin-top:40px;
+    display: inline;
+    box-align: inline;
+    float:left;
+}
+
+.container-box{
+    border-radius: 4px;
+    margin: 0px 30px;
+    align-content: flex-end;
+    width : 250px;
+    height : 130px;
+
+}
+
+.container-box{
+    width:250px;
+    height:130px;
+}
+
+.cardimg{
+    margin-left: 5px;
+    width:50px;
+    height: 50px;
+}
+
+.containermt{
+    margin-left:75px;
+    margin-top:-5px;
+    font-size: 20px;
+
+}
+
+.containerst{
+    margin:-10px 0px 0px 0px;
+    font-size:17px;
+}
+
+.textonimage{
+    z-index:100;
+}
+
+
+
+@media screen 
+  and (max-width: 411px){
+
+    .textonimage1{
+        left:90px;
+       
+    }    
+      .textonimage2{
+          left:90px;
+          top:270px;
+          
+      }
+
+      .textonimage3{
+        left:90px;
+        top:450px;
+    }
+
+    .textonimage4{
+        left:90px;
+        top:640px;
+    }
+    li.boxrow1{
+        margin-top:50px;
+    
+    }
+
+
+
+    }
+
+  
+
+ 
+
+
+
+
